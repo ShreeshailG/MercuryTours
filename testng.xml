@@ -1,0 +1,13 @@
+<suite name="Flight">
+	
+	<test name="Flight and Cruise Booking">
+		<classes>
+			<class name="seleniumdemotests.RegisterTest"/>
+			<class name="seleniumdemotests.bookcruise.BookCruiseWithoutSignIn"/>
+			<class name="seleniumdemotests.bookflight.BookFlightTestWithNewRegisterUser"/>
+			<class name="seleniumdemotests.bookflight.BookFlightTestWithOutSignIn"/>
+			<class name="seleniumdemotests.bookflight.BookFlightWithPreExistingUserOnHome"/>
+			
+		</classes>
+	</test>
+</suite>
